@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planning Poker - CAPI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form id ="gameForm">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom des joueurs</th>
+                </tr>
+            </thead>
+            <tbody id="playersList">
+                <!-- Les joueurs seront ajoutés ici dynamiquement -->
+            </tbody>
+        </table>
+            
+        <button type="button" id="addPlayerBtn">Ajouter un joueur</button>
+        <button type="submit" id="confirmBtn">Confirmer les joueurs</button>
+
+        <!--<button href="#" id="confirmBtn">Confirmer</button> -->
+
+    </form>
     
-    <script src="app.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>

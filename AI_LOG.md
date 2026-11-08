@@ -6,7 +6,7 @@
 ## Outils utilisés (à remplir une fois)
 
 | Outil | Modèle (si connu) | Mode (autocomplétion, chat, agent) |
-|---|---|---|
+| Copilot (vscode) | GPT-5.6 Luna | Autocomplétion |
 | | | |
 
 Fichier d'instructions pour agent versionné (`CLAUDE.md`, `AGENTS.md`...) : <oui : chemin / non>
