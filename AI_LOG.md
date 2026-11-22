@@ -7,6 +7,8 @@
 
 | Outil | Modèle (si connu) | Mode (autocomplétion, chat, agent) |
 |---|---|---|
-| | | |
+| Copilot (vscode) | GPT-5.6 Luna | Autocomplétion |
+| Copilot (vscode) | mai-code-2-flash | Autocomplétion |
+| Copilot (vscode) | mai-code-2-flash | Chat |
 
 Fichier d'instructions pour agent versionné (`CLAUDE.md`, `AGENTS.md`...) : <oui : chemin / non>
