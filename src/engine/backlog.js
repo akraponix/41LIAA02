@@ -1,6 +1,3 @@
-import { readFileSync } from "fs";
-
-
 export function loadBacklog(backlog) {
     let json;
     try {
@@ -20,6 +17,3 @@ export function loadBacklog(backlog) {
     }
     return json;
 }
-
-const backlog = loadBacklog(readFileSync("exemples/exemple_backlog.json"));
-console.log("Backlog chargé :", backlog["fonctionnalites"][0]["titre"]);
