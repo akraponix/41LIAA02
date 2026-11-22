@@ -16,3 +16,7 @@ export function createGame(nb, pseudos) {
     }
     return { nb, pseudos };
 }
+
+export function validateVote(votes, rule, turn) {
+    throw new Error("Non implémentée");
+}
